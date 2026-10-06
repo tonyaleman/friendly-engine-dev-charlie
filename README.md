@@ -1,5 +1,5 @@
-# game title
-> Click the icons
+# Disappearing something
+> Click the icons/pictures that appear
 
 ## authorship
 Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com/tonyaleman)
@@ -21,7 +21,7 @@ Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the D
 
 ### Wireframe and Game Ideas
 [Wiki/Wireframe](https://github.com/tonyaleman/friendly-engine-dev-charlie/wiki/Wireframe)
-[Game Idea/Issue]()
+[Game Idea/Issue](https://github.com/tonyaleman/friendly-engine-dev-charlie/issues/1)
 
 - links to wiki/wireframe & issue/game ideas
 - a `tree` of your directory structure 
