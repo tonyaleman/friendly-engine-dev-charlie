@@ -33,4 +33,6 @@ Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the D
  - links & reports using Nu & Lighthouse
 - finally, create & link to sprint 99/future ideas
   - create a milestone: sprint 99
-  - create at least 3 issues for future ideas & label them as sprint 99 milestone 
+  - create at least 3 issues for future ideas & label them as sprint 99 milestone
+### Milestone
+[Sprint99 Milestone](https://github.com/tonyaleman/friendly-engine-dev-charlie/milestone/1)
