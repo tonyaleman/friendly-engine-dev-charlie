@@ -20,6 +20,8 @@ Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the D
 ### each of these as lvl-3 headings...
 
 ### Wireframe and Game Ideas
+[Wiki/Wireframe](https://github.com/tonyaleman/friendly-engine-dev-charlie/wiki/Wireframe)
+[Game Idea/Issue]()
 
 - links to wiki/wireframe & issue/game ideas
 - a `tree` of your directory structure 
