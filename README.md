@@ -2,7 +2,7 @@
 > Click the icons
 
 ## authorship
-Antonio Aleman |10/6/2026 | Version 0.1 | [evidence](https://github.com/tonyaleman)
+Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com/tonyaleman)
 
 ## user story 
 - **as a** ...be creative, the more specific the better 
