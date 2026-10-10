@@ -5,13 +5,12 @@
 Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com/tonyaleman)
 
 ## user story 
-- **as a** ...be creative, the more specific the better 
-- **i want** ...
-- **so that** ...
+- **as a** Gamer 
+- **i want** to make a game that challenges you
+- **so that** you can overcome it. 
 
 ## narrative
-a bit more wordy blurb about the game...
-
+This game will have you click on things, and you have to press them before they disappear. If you let it go, well, then you lose. 
 > lasers, shotguns, & grenades, oh my! 
 Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the Dragon's fart attack whilst dodging fiersome chickens. Use your arsenal to battle through increasingly harder levels. 
 
