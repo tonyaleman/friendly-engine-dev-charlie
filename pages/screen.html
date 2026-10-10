@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Professors</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid position-relative">
+
+    <!-- Score -->
+    <span id="score" class="navbar-text text-white fs-4">
+  Score: 0
+</span>
+
+    <!-- Game Title -->
+    <span class="navbar-brand fs-2 fw-bold position-absolute start-50 translate-middle-x">
+        <i class="bi bi-mortarboard-fill"></i>
+      Disappearing Professors
+    </span>
+
+    <!-- Lives -->
+    <span id="lives" class="navbar-text text-white fs-4 ms-auto">
+  Lives: 3
+</span>
+
+  </div>
+</nav>
+
+<!-- Game Area -->
+<div id="gameArea"
+     class="border border-3 border-white rounded mx-auto position-relative overflow-hidden"
+     style="height: 650px; width: 95%;">
+
+  <img id="professor" alt="Professor">
+
+  <!-- Start Button -->
+  <button id="startButton"
+          class="btn btn-primary position-absolute top-50 start-50 translate-middle">
+    Start Game
+  </button>
+
+  <!-- Game Over -->
+  <div id="gameOverScreen"
+       class="position-absolute top-50 start-50 translate-middle text-center text-white"
+       style="display: none;">
+
+    <h1>You Lose!</h1>
+
+    <h3 id="finalScore">Score: 0</h3>
+
+    <button id="restartButton" class="btn btn-primary mt-3">
+      Restart
+    </button>
+
+    <button id="menuButton" class="btn btn-secondary mt-3">
+      Back to Menu
+    </button>
+
+  </div>
+  </div>
+  <!-- Player Username -->
+<div id="playerNameDisplay"
+     class="position-absolute bottom-0 start-50 translate-middle-x text-white fs-4 mb-2">
+</div>
+
+
+
+
+     <script src="../assets/js/script.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
