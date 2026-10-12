@@ -1,5 +1,5 @@
-# Disappearing something
-> Click the icons/pictures that appear
+# Disappearing Professors
+> Click the pictures that appear
 
 ## authorship
 Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com/tonyaleman)
@@ -10,9 +10,7 @@ Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com
 - **so that** you can overcome it. 
 
 ## narrative
-This game will have you click on things, and you have to press them before they disappear. If you let it go, well, then you lose. 
-> lasers, shotguns, & grenades, oh my! 
-Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the Dragon's fart attack whilst dodging fiersome chickens. Use your arsenal to battle through increasingly harder levels. 
+This game will have you click on pictures, and you have to press them before they disappear. If you let it go, well, then you lose. You only have 3 lives, so be sure not to miss any pictures.
 
 ## about the app
 
@@ -23,9 +21,39 @@ Step into adventure as the Brave Knight vs. The Dumb Dragon. Watch out for the D
 
 [Game Idea/Issue](https://github.com/tonyaleman/friendly-engine-dev-charlie/issues/1)
 
+### Directory Structure
+```
+Disappearing-Professors/
+│
+├── index.html
+├── README.md
+│
+├── pages/
+│   └── screen.html
+│
+└── assets/
+    │
+    ├── css/
+    │   └── style.css
+    │
+    ├── js/
+    │   ├── leaderboard.js
+    │   └── script.js
+    │
+    └── images/
+        ├── professor1.jpg
+        ├── professor2.jpg
+        ├── professor3.jpg
+        └── professor4.jpg
+```
+
+### Technology Stack
+
+VS Code (live server, todo, prettier) | HTML5 | CSS3 | JavaScript | Bootstrap 5 | Normalize.css | Google Fonts | Git | GitHub | GitHub Pages
+
 - links to wiki/wireframe & issue/game ideas ✅
-- a `tree` of your directory structure 
-- a list of tech & tools 
+- a `tree` of your directory structure ✅
+- a list of tech & tools ✅
   - e.g., vsCode (live server, todo, prettier), HTML (emmet), CSS (normalize, bs5 & bs icons), js (jQ, jQui), GitHub (repo, readme/markdwon, wiki, issues, GitHub pages)...others? 
 - a code snippet: use triple backticks and code syntax highlighting to show off a cool portion of your code, 
   - e.g., this button's click (show html code) hit's this event (show js) calls this f/n (more js) and updates the dom
