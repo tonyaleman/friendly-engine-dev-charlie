@@ -54,6 +54,68 @@ Disappearing-Professors/
 
 VS Code (live server, todo, prettier) | HTML5 | CSS3 | JavaScript | Bootstrap 5 | Bootstrap Icons | Normalize.css | Google Fonts | Git | GitHub | GitHub Pages
 
+### Code Snippet 
+The professor image is the main game piece that the player interacts with.
+
+```html
+<img id="professor" alt="Professor">
+```
+
+When the player clicks the professor, this event increases the score, updates the score on the page, and checks if the player has won.
+
+```javascript
+professor.addEventListener("click", function() {
+
+  if (
+    gameOver === false &&
+    professor.style.display !== "none"
+  ) {
+
+    professorClicked = true;
+
+    score++;
+
+    scoreDisplay.textContent =
+      "Score: " + score;
+
+    professor.style.display = "none";
+
+    if (score === 15) {
+      endGame(true);
+    }
+  }
+});
+```
+
+If the player reaches the winning score, the event calls the `endGame()` function. This stops the game, saves the player's score, updates the final score in the DOM, and displays whether the player won or lost.
+
+```javascript
+function endGame(playerWon) {
+
+  gameOver = true;
+
+  clearInterval(gameInterval);
+
+  professor.style.display = "none";
+
+  localStorage.setItem("playerScore", score);
+
+  finalScore.textContent =
+    "Score: " + score;
+
+  const gameResult =
+    gameOverScreen.querySelector("h1");
+
+  if (playerWon) {
+    gameResult.textContent = "You Win!";
+  } else {
+    gameResult.textContent = "You Lose!";
+  }
+
+  gameOverScreen.style.display = "block";
+}
+```
+
 - links to wiki/wireframe & issue/game ideas ✅
 - a `tree` of your directory structure ✅
 - a list of tech & tools ✅
