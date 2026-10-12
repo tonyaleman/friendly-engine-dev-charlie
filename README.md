@@ -1,5 +1,5 @@
 # Disappearing Professors
-> Click the pictures that appear
+Click the pictures of the professors when they appear. 
 
 ## authorship
 Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com/tonyaleman)
@@ -11,6 +11,9 @@ Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com
 
 ## narrative
 This game will have you click on pictures, and you have to press them before they disappear. If you let it go, well, then you lose. You only have 3 lives, so be sure not to miss any pictures.
+
+## Link to the full game (Ai assisted)
+[Full Game](https://github.com/tonyaleman/fuzzy-octo-train-dev-charlie)
 
 ## about the app
 
