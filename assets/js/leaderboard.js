@@ -10,8 +10,6 @@ startGameButton.addEventListener("click", function(event) {
 
   // Make sure player entered a username
   if (username === "") {
-
-    // Stop the link from opening the game
     event.preventDefault();
 
     alert("Please enter a username.");
@@ -43,8 +41,7 @@ let players = [
 ];
 
 
-// If a player has completed a game,
-// add them to the leaderboard
+// If a player has completed a game, add them to the leaderboard
 if (savedName !== null && savedScore !== null) {
 
   players.push({
@@ -54,7 +51,7 @@ if (savedName !== null && savedScore !== null) {
 }
 
 
-// Sort leaderboard from highest score to lowest
+// Sort leaderboard 
 players.sort(function(a, b) {
   return b.score - a.score;
 });
