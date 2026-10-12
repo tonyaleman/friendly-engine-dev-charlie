@@ -10,7 +10,7 @@ Antonio Aleman |10/6/2026 | Version 0.1 | [My GitHub Profile](https://github.com
 - **so that** you can overcome it. 
 
 ## narrative
-This game will have you click on pictures, and you have to press them before they disappear. If you let it go, well, then you lose. You only have 3 lives, so be sure not to miss any pictures.
+This game will have you click on pictures, and you have to press them before they disappear. If you let it go, well, then you lose. You only have 3 lives, so be sure not to miss any pictures. Try to beat Johnny and Lion, they hold the top 2 spots. 
 
 ## Link to the full game (Ai assisted)
 [Full Game](https://github.com/tonyaleman/fuzzy-octo-train-dev-charlie)
