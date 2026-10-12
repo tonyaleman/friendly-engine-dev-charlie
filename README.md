@@ -49,7 +49,7 @@ Disappearing-Professors/
 
 ### Technology Stack
 
-VS Code (live server, todo, prettier) | HTML5 | CSS3 | JavaScript | Bootstrap 5 | Normalize.css | Google Fonts | Git | GitHub | GitHub Pages
+VS Code (live server, todo, prettier) | HTML5 | CSS3 | JavaScript | Bootstrap 5 | Bootstrap Icons | Normalize.css | Google Fonts | Git | GitHub | GitHub Pages
 
 - links to wiki/wireframe & issue/game ideas ✅
 - a `tree` of your directory structure ✅
