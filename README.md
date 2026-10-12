@@ -120,6 +120,8 @@ function endGame(playerWon) {
 
 Checked all of the code to make sure that it all worked correctly. Reviewed the links that I used to make sure that they were all correct, and did not lead to anything else. 
 
+[Nu and Lighthouse Results](https://github.com/tonyaleman/friendly-engine-dev-charlie/wiki/Nu-and-Lighthouse)
+
 - links to wiki/wireframe & issue/game ideas ✅
 - a `tree` of your directory structure ✅
 - a list of tech & tools ✅
